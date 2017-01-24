@@ -1,0 +1,14 @@
+<h1> Create restaurant </h1>
+<form method="post" action=".">
+  {% csrf_token %}
+  Nombre: <br>
+  <input type="text" name="name"></input>
+  <br>
+  Cocina: <br>
+  <input type="text" name="cuisine"></input>
+  <br>
+  Ciudad: <br>
+  <input type="text" name="burough"></input>
+  <br>
+  <input type="submit" />
+</form>
